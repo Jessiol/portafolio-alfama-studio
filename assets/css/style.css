@@ -872,7 +872,7 @@ blockquote p {
 /*                      SECTION                              
 /*=================================================================*/
 section {
-  background: #fbfcf5;
+  background: #ffffff;
   overflow: hidden;
   padding: 80px 0;
   position: relative;
@@ -1230,6 +1230,7 @@ section.dark {
 }
 .service-item h3 {
   margin: 20px 10px 10px;
+  font-weight: 600;
   position: relative;
   font-family: "Helvetica", sans-serif;
   letter-spacing: -1px;
@@ -1718,8 +1719,8 @@ section.dark {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background: black;
-  background: rgba(0, 0, 0, 0.5);
+  background: #5c7bb2;
+  background: rgba(123, 166, 241, 0.5);
   width: 40px;
   height: 40px;
   display: block;
@@ -1750,7 +1751,7 @@ section.dark {
 }
 
 #return-to-top:hover {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(92, 123, 178, 0.8);
 }
 
 #return-to-top:hover i {
@@ -1794,6 +1795,18 @@ section.dark {
   line-height: 1.4;
   letter-spacing: -1px;
   position: relative;
+  padding-left: 10px;
+  padding-right: 30px;
+  
+}
+
+.page-headers p {
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: -1px;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
   
 }
 
