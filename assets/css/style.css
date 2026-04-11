@@ -156,7 +156,7 @@ ul.inline li {
 /*=================================================================*/
 /*                      TYPOGRAPHY                              
 /*=================================================================*/
-h3, h4, h5, h6 {
+h4, h5, h6 {
   font-family: 'Times-New-Roman-Italic';
   font-weight: 700;
   margin: 20px 0;
@@ -165,6 +165,7 @@ h3, h4, h5, h6 {
   font-family: 'Helvetica';
   font-weight: 700;
   margin: 20px 0;
+  letter-spacing: -2px;
  }
 
 h1 {
@@ -180,6 +181,7 @@ h2 {
 
 h3 {
   font-size: 24px;
+  font-family: 'Helvetica';
 }
 
 h4 {
@@ -958,6 +960,7 @@ section.dark {
   margin-top: 1em;
   color: #FFF;
   font-size: 20px;
+  letter-spacing: -1px;
   font-family: 'Times-New-Roman-Italic';
   line-height: 22px;
 }
@@ -1226,15 +1229,15 @@ section.dark {
   color: #A9C1EB;
 }
 .service-item h3 {
-  margin: 20px 0 10px;
+  margin: 20px 10px 10px;
   position: relative;
   font-family: "Helvetica", sans-serif;
   letter-spacing: -1px;
 }
-/*
+
 .service-item p {
   text-align: justify;
-}*/
+}
 
 /*
 .service-item h3:before {
@@ -1354,8 +1357,8 @@ section.dark {
   margin-right: 0;
 }
 .social-icons ul li a {
-  color: #444;
-  background: #DDD;
+  color: #ffffff;
+  background: #c8dafc;
   border-radius: 50%;
   display: block;
   font-size: 12px;
@@ -1385,7 +1388,7 @@ section.dark {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #C40E0E;
+  background: #673C33;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 100%;
@@ -1555,6 +1558,10 @@ section.dark {
 .cta-footer .text .lead {
   font-weight: 600;
   margin: 0;
+  letter-spacing: -0.8px;
+}
+.ftext{
+  letter-spacing: -1px;
 }
 
 .cta-footer .text p {
@@ -1787,9 +1794,9 @@ section.dark {
   line-height: 1.4;
   letter-spacing: -1px;
   position: relative;
-  padding-left: 10px;
-  padding-right: 30px;
+  
 }
+
 .page-header p:before {
   content: '';
   height: 1px;
