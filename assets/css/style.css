@@ -536,6 +536,7 @@ blockquote p {
   width: 22px;
   height: 3px;
   border-radius: 0;
+  background-color: #fff;
 }
 .navbar-default .navbar-toggle:focus {
   background-color: transparent;
